@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    -webkit-user-select: none;  
+    -moz-user-select: none;     
+    -ms-user-select: none;      
+    user-select: none;      
+    cursor: pointer;
+}
+
+.modal{
+    background-color: #ffffff;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: -100%;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    z-index: 20;
+}
+
+.wrapper{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4b4b4b77;
+    display: none;
+    z-index: 10;
+}
+
+.wrapper-on{
+    display: block;
+}
+
+
+.modal-on{
+    top: 1%;
+}
+
+.modal_in{
+    padding: 10px 30px;
+}
+
+.modal_title-space{
+    position: relative;
+    text-align: center;
+}
+
+.modal-off{
+    position: absolute;
+    font-size: 20px;
+    top: 14%;
+    left: 96%;
+    padding: 0;
+    background-color: #ffffff;
+
+    color: #4e4e4e;
+}
+
+.modal-title{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modal_button-space{
+    text-align: end;
+}
+
+.modal-button-close{
+    background-color: #960018;
+    border: 1px solid #960018;
+    color: #fff;
+}
+
+.modal-button-close:hover{
+    color: #960018;
+    background-color: #fff;
+}
+
+.modal-button-green{
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+
+.modal-button-green:hover{
+    color: #007bff;
+    background-color: #fff;
+}
+
+.modal-on-btn{
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+
+.modal-on:hover{
+    color: #007bff;
+    background-color: #fff;
+}
+
+
+.body-space{
+   position: absolute; 
+
+   left: 50%;
+   top: 50%;
+}
