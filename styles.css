@@ -21,17 +21,6 @@ button{
     cursor: pointer;
 }
 
-.modal{
-    background-color: #ffffff;
-    position: absolute;
-    width: 40%;
-    left: 30%;
-    top: -100%;
-    border: 1px solid #000000;
-    border-radius: 15px;
-    z-index: 20;
-}
-
 .wrapper{
     position: fixed;
     width: 100vw;
@@ -43,8 +32,19 @@ button{
 
 .wrapper-on{
     display: block;
-}
+}   
 
+.modal{
+    background-color: #ffffff;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: -100%;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    z-index: 20;
+    transition: .3s;
+}
 
 .modal-on{
     top: 1%;
@@ -112,10 +112,8 @@ button{
     background-color: #fff;
 }
 
-
 .body-space{
    position: absolute; 
-
    left: 50%;
    top: 50%;
 }
