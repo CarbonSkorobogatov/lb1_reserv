@@ -11,14 +11,15 @@ h1, h2, h3, h4, h5, h6, p, a{
 }
 
 button{
-    padding: 5px 20px;
-    border-radius: 8px;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
     border: none;
     -webkit-user-select: none;  
     -moz-user-select: none;     
     -ms-user-select: none;      
     user-select: none;      
     cursor: pointer;
+    
 }
 
 .wrapper{
@@ -66,7 +67,8 @@ button{
     left: 96%;
     padding: 0;
     background-color: #ffffff;
-
+    color: #747272;
+    cursor: pointer;
     color: #4e4e4e;
 }
 

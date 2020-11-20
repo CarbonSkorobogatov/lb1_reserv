@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="wrapper"></section>
+    <section class="wrapper" data-modal-toggle></section>
 
     <section class="modal">
         <div class="modal_in modal_title-space">
             <h1 class="modal-title">Modal</h1>
-            <button class="modal-off" onclick="Modal()">x</button>
+            <span class="modal-off" data-modal-toggle>x</ы>
         </div>
         <hr>
         <div class="modal_in modal_text-space">
@@ -20,13 +20,13 @@
         </div>
         <hr>
         <div class="modal_in modal_button-space">
-            <button class="modal-button-close" onclick="Modal()">Close</button>
+            <button class="modal-button-close" data-modal-toggle>Close</button>
             <button class="modal-button-green">Accept</button>
         </div>
     </section>
 
     <section class="body-space">
-        <button class="modal-on-btn" onclick="Modal()">Modal</button>
+        <button class="modal-on-btn" data-modal-toggle>Modal</button>
     </section>
 
     <script src="modal.js"></script>
